@@ -10,6 +10,7 @@
       <nav class="main-navigation">
         <ul>
         <li>
+          <a href="#">Информация</a>
         </li>
         <li>
             <a href="#">Фото и видео</a>
