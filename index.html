@@ -6,103 +6,99 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
-        <nav class="main-navigation">
-          <ul>
-            <li>
-              <a href="#">Информация</a>
-            </li>
-            <li>
-              <a href="#">Фото и видео</a>
-            </li>
-            <li>
-              <a href="#">Карта штата</a>
-            </li>
-            <li>
-              <a href="#">Гостиницы</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav class="main-navigation">
+        <ul>
+          <li>
+            <a href="#">Информация</a>
+          </li>
+          <li>
+            <a href="#">Фото и видео</a>
+          </li>
+          <li>
+            <div>City of Cedona</div>
+          </li>
+          <li>
+            <a href="#">Карта штата</a>
+          </li>
+          <li>
+            <a href="#">Гостиницы</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <main class="container">
-      <div class="content">
-        <h2>Welcome</h2>
-          <p>to the gargeous</p>
-        <h1>Sedona</h1>
-          <p>Because the Grand Canyon sucks!</p>
+    <main>
+      <div class="basic background">
+          <img src="img/Sedona" width="" height="" alt="">
       </div>
-      <div class="container">
-        <p>Седона-небольшой городок в Аризоне, заслуживающий большего!</p>
+      <div class="text">
+        <h2>Седона-небольшой городок в Аризоне, заслуживающий большего!</h2>
         <p>Рассмотрим 5 причин, по которым Cедона круче, чем Гранд Каньон</p>
       </div>
       <article>
-        <h4>Настоящий городок</h4>
+        <h2>Настоящий городок</h2>
           <p>-№1-</p>
           <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
           <img src="img/.png" width="" height="" alt="">
       </article>
-      <section class="features">
+      <div class="features">
         <div class="features-item">
-          <b class="features-name">Жилье</b>
+          <h2>Жилье</h2>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </div>
         <div class="features-item">
-          <b class="features-name">Еда</b>
+          <h2>Еда</h2>
           <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
         </div>
         <div class="features-item">
-          <b class="features-name">Сувениры</b>
+          <h2>Сувениры</h2>
           <p>Не только китайского, но и местного производства!</p>
         </div>
-      </section>
+      </div>
       <article>
-        <h4>Там есть мост дьявола</h4>
+        <h2>Там есть мост дьявола</h2>
           <p>-№2-</p>
           <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           img src="img/.png" width="" height="" alt="">
       </article>
-      <section class="vantage">
+      <div class="vantage">
         <div class="vantage-item">
-          <b class="vantage-name">Небольшая площадь</b>
+          <h2>Небольшая площадь</h2>
           <p>-№3-</p>
           <p>Все достопримечательности находятся очень близко</p>
         </div>
         <div class="vantage-item">
-          <b class="vantage-name">Красивая дорога</b>
+          <h2>Красивая дорога</h2>
           <p>-№4-</p>
           <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
         </div>
         <div class="vantage-item">
-          <b class="vantage-name">Мало туристов</b>
+          <h2>Мало туристов</h2>
           <p>-№5-</p>
           <p>Большинство едет в Гранд Каньон и толпится там</p>
         </div>
-      </section>
-      <div>
-        <h3>Заинтересовались?</h3>
+      </div>
+      <div class="content">
+        <h1>Заинтересовались?</h1>
         <p>Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне<p>
       </div>
       <div>
         <h4>Поиск гостиницы в седоне</h4>
         <form action="https://echo.htmlacademy.ru" method="post">
         <div class="occupation">
-          <p>Дата заезда</p>
-          <select name="days" multiple size="">
-          <option>24 апреля 2016</option>
+          <label>Дата заезда</label>
+          <input>24 апреля 2016</input>
         </div>
         <div class="departure">
-          <p>Дата выезда</p>
-          <select name="days" multiple size="">
-          <option>4 июля 2016</option>
+          <label>Дата выезда</label>
+          <input>4 июля 2016</input>
         </div>
         <div class="abulf">
-          <p>Взрослые</p>
-          <p>2</p>
+          <label>Взрослые</label>
+          <input>2</input>
         </div>
         <div class="children">
-          <p>Дети</p>
-          <p>0</p>
+          <label>Дети</label>
+          <input>0</input>
         </div>
         <a class="btn href="#">Найти</a>
       </div>
@@ -120,7 +116,6 @@
         <section class="footer-copyright">
           <p>Website by</p>
           <img src="img/HTML Academy.png" width="" height="" alt="">
-          <p>HTML Academy</p>
         </section>
       </div>
     </footer>
