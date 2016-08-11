@@ -1,0 +1,22 @@
+body {
+  color:  #000000;
+  font-size: 14;
+  line-height: 21;
+  font-style: regular;
+  font-family: PTSans;
+}
+h1 {
+  font-size: 30;
+  line-height: 24;
+  color: #000000;
+  font-style: bold;
+}
+h2 {
+  font-size: 21;
+  line-height: 26;
+  color: #000000;
+  font-style: bold;
+}
+.search h2 {
+  color: #ffffff;
+}
