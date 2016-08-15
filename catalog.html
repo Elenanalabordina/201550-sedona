@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
         <nav class="main-navigation">
           <ul>
             <li>
@@ -27,39 +27,43 @@
         </nav>
       </div>
     </header>
-    <main class="content">
+    <main>
       <div class="index-content">
         <div class="index-content-left">
-          <h3>Инфраструктура:</h3>
-          <ul>
-            <li>
-              <input type="checkbox" name="pool" id="pool-field" checked>
-              <label for="pool">Бассейн</label>
-            </li>
-            <li>
-              <input type="checkbox" name="parking" id="parking-field">
-              <label for="parking">Парковка</label>
-            </li>
-            <li>
-              <input type="checkbox" name="wireless" id="wireless-field">
-              <label for="wireless">Wi-Fi</label>
-            </li>
-          </ul>
-          <h3>Тип жилья:</h3>
-          <ul>
-            <li>
-              <input type="checkbox" name="hotel" id="hotel-field"checked>
-              <label for="hotel">Гостиница</label>
+          <div class="column">
+            <h3>Инфраструктура:</h3>
+            <ul>
+              <li>
+                <input type="checkbox" name="pool" id="pool-field" checked>
+                <label for="pool">Бассейн</label>
               </li>
-            <li>
-              <input type="checkbox" name="motel" id="motel-field"checked>
-              <label for="motel">Мотель</label>
-            </li>
-            <li>
-              <input type="checkbox" name="apartments" id="apartments-field"checked>
-              <label for="apartments">Апартаменты</label>
-            </li>
-          </ul>
+              <li>
+                <input type="checkbox" name="parking" id="parking-field">
+                <label for="parking">Парковка</label>
+              </li>
+              <li>
+                <input type="checkbox" name="wireless" id="wireless-field">
+                <label for="wireless">Wi-Fi</label>
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3>Тип жилья:</h3>
+            <ul>
+              <li>
+                <input type="checkbox" name="hotel" id="hotel-field"checked>
+                <label for="hotel">Гостиница</label>
+              </li>
+              <li>
+                <input type="checkbox" name="motel" id="motel-field"checked>
+                <label for="motel">Мотель</label>
+              </li>
+              <li>
+                <input type="checkbox" name="apartments" id="apartments-field"checked>
+                <label for="apartments">Апартаменты</label>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="index-content-right">
           <h3>Стоимость в сутки(p):</h3>

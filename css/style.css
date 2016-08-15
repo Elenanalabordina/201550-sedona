@@ -20,3 +20,169 @@ h2 {
 .search h2 {
   color: #ffffff;
 }
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+.main-haeder {
+  background-color: red;
+  min-height: 57px;
+  width: 768px;
+}
+.main-navigation {
+  background-color: yellow;
+  float: left;
+  min-height: 57px;
+  width: 676px;
+  margin-left:46px;
+  margin-right:46px;
+}
+.main {
+  background-color: gray;
+  width:768px;
+}
+.basic background {
+  background-color: blue;
+  float: left;
+  width: 768px;
+  min-height: 513px;
+}
+.text {
+  background-color: green;
+  display: inline-block;
+  width: 488px;
+  min-height: 212px;
+  margin-left: 141px;
+}
+.info {
+  background-color: orange;
+  width: 768px;
+  min-height: 255px;
+}
+.info-left {
+  background-color: #81b3d2;
+  float: left;
+  width: 256px;
+  min-height: 255px;
+}
+.info-right {
+  float: right;
+  width: 512px;
+  min-height: 255px;
+}
+.info-picture {
+  float: left;
+  width: 512px;
+  min-height: 255px;
+}
+.info-data {
+  background-color: #81b3d2;
+  float: right;
+  width: 254px;
+  min-height: 255px;
+}
+.features {
+  background-color: black;
+  width: 768px;
+}
+.features-item {
+  display: inline-block;
+  background-color: red;
+  width: 32%;
+  min-height: 333px;
+}
+.vantage {
+  background-color: pink;
+  width: 768px;
+}
+.vantage-item {
+  display: inline-block;
+  background-color: red;
+  width: 32%;
+  min-height: 185px;
+}
+.content {
+  background-color: green;
+  display: inline-block;
+  min-height: 291px;
+  width: 438px;
+  margin-left: 166px;
+  margin-bottom: 55px;
+}
+.search {
+  background-color: red;
+  width: 600px;
+  min-height: 518px;
+  margin-left: 84px;
+}
+.map {
+  width: 768px;
+  margin-left: 0;
+}
+.main-footer {
+  margin-top: 40px;
+}
+.container {
+  background-color: purple;
+  min-height: 121px;
+  width: 768px;
+}
+.footer-contacts {
+  background-color: red;
+  float: left;
+  width: 211px;
+  margin-right: 60px;
+  min-height: 121px;
+}
+
+.footer-social {
+  background-color: red;
+  float: left;
+  width: 247px;
+  min-height: 121px;
+}
+
+.footer-copyright {
+  background-color: red;
+  float: right;
+  width: 180px;
+  min-height: 121px;
+}
+.index-content {
+  width: 768px;
+  min-height: 219px;
+}
+.index-content-left {
+  width: 458px;
+}
+.column {
+  background-color: red;
+  float: left;
+  width: 229px;
+  min-height: 219px;
+}
+.index-content-right {
+  background-color: red;
+  float: right;
+  width: 310px;
+  min-height: 219px;
+}
+.sorting {
+  background-color: yellow;
+  float: left;
+  width: 676px;
+  min-height: 219px;
+  margin-left:46px;
+  margin-right:46px;
+}
+.list-hotel {
+  background-color: red;
+  min-height: 219px;
+}
+.hotel {
+  background-color: gray;
+  display-inline-block;
+  min-height: 152px;
+}

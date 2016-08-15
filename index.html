@@ -6,7 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header clearfix">
       <nav class="main-navigation">
         <ul>
           <li>
@@ -26,20 +26,24 @@
       </nav>
     </header>
     <main>
-      <div class="basic background">
+      <div class="basic background clearfix">
           <img src="img/sedona.jpg" width="" height="" alt="">
       </div>
       <div class="text">
         <p>Седона-небольшой городок в Аризоне, заслуживающий большего!</p>
         <p>Рассмотрим 5 причин, по которым Cедона круче, чем Гранд Каньон</p>
       </div>
-      <div class="info">
-        <h2>Настоящий городок</h2>
+      <div class="info clearfix">
+        <div class="info-left">
+          <h2>Настоящий городок</h2>
           <p>-№1-</p>
           <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
+        </div>
+        <div class="info-right">
           <img src="img/realctiy.jpg" width="" height="" alt="">
+        </div>
       </div>
-      <div class="features">
+      <div class="features clearfix">
         <div class="features-item">
           <img src="img/house.png" width="" height="" alt="">
           <h2>Жилье</h2>
@@ -56,13 +60,17 @@
           <p>Не только китайского, но и местного производства!</p>
         </div>
       </div>
-      <div class="info">
-        <img src="img/bridge.jpg" width="" height="" alt="">
-        <h2>Там есть мост дьявола</h2>
-        <p>-№2-</p>
-        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+      <div class="info clearfix">
+        <div class="info-picture">
+          <img src="img/bridge.jpg" width="" height="" alt="">
+        </div>
+        <div class="info-data">
+          <h2>Там есть мост дьявола</h2>
+          <p>-№2-</p>
+          <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
       </div>
-      <div class="vantage">
+      </div>
+      <div class="vantage clearfix">
         <div class="vantage-item">
           <h2>Небольшая площадь</h2>
           <p>-№3-</p>
@@ -103,7 +111,7 @@
           <input>0</input>
         </div>
         <a class="btn href="#">Найти</a>
-        <img src="img/map.jpg" width="" height="" alt="">
+        <div class="map"><img src="img/map.jpg" width="" height="" alt=""></div>
       </div>
     </main>
     <footer class="main-footer">
