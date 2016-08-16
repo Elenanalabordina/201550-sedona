@@ -4,6 +4,7 @@ body {
   line-height: 21px;
   font-style: regular;
   font-family: PTSans;
+  outline: 1px dashed red;
 }
 h1 {
   font-size: 30px;
@@ -27,29 +28,46 @@ h2 {
   clear: both;
 }
 .main-haeder {
+  outline: 1px dashed red;
   background-color: red;
   min-height: 57px;
   width: 768px;
 }
 .main-navigation {
+  outline: 1px dashed red;
   background-color: yellow;
-  float: left;
   min-height: 57px;
-  width: 676px;
-  margin-left:46px;
-  margin-right:46px;
+  width: 768px;
+  text-align:center;
+  vertical-align: top;
+}
+.main-navigation li {
+  float: left;
+  margin-right: 10px;
+}
+.main-navigation li a {
+  display: block;
+  position: relative;
+  padding: 21px;
+}
+.main-navigation li img {
+  display: block;
+  margin: 0 auto;
 }
 .main {
+  outline: 1px dashed red;
   background-color: gray;
   width:768px;
 }
 .basic background {
+  outline: 1px dashed red;
   background-color: blue;
   float: left;
   width: 768px;
   min-height: 513px;
 }
 .text {
+  outline: 1px dashed red;
   background-color: green;
   display: inline-block;
   width: 488px;
@@ -57,119 +75,149 @@ h2 {
   margin-left: 141px;
 }
 .info {
+  outline: 1px dashed red;
   background-color: orange;
   width: 768px;
   min-height: 255px;
 }
 .info-left {
+  outline: 1px dashed red;
   background-color: #81b3d2;
   float: left;
   width: 256px;
   min-height: 255px;
 }
 .info-right {
+  outline: 1px dashed red;
   float: right;
   width: 512px;
   min-height: 255px;
 }
 .info-picture {
+  outline: 1px dashed red;
   float: left;
   width: 512px;
   min-height: 255px;
 }
 .info-data {
+  outline: 1px dashed red;
   background-color: #81b3d2;
   float: right;
   width: 254px;
   min-height: 255px;
 }
 .features {
+  outline: 1px dashed red;
   background-color: black;
   width: 768px;
+  font-size: 0px;
 }
 .features-item {
+  outline: 1px dashed red;
   display: inline-block;
   background-color: red;
-  width: 32%;
+  width: 33.333%;
   min-height: 333px;
+  vertical-align: top;
+  font-size: 14px;
 }
 .vantage {
+  outline: 1px dashed red;
   background-color: pink;
   width: 768px;
+  font-size: 0px;
 }
 .vantage-item {
+  outline: 1px dashed red;
   display: inline-block;
   background-color: red;
-  width: 32%;
+  width: 33.333%;
   min-height: 185px;
+  font-size: 14px;
 }
 .content {
+  outline: 1px dashed red;
   background-color: green;
   display: inline-block;
   min-height: 291px;
   width: 438px;
   margin-left: 166px;
-  margin-bottom: 55px;
 }
 .search {
+  outline: 1px dashed red;
   background-color: red;
   width: 600px;
   min-height: 518px;
-  margin-left: 84px;
 }
 .map {
+  outline: 1px dashed red;
+  background-color: blue;
   width: 768px;
-  margin-left: 0;
+  min-height: 472px;
 }
 .main-footer {
-  margin-top: 40px;
+  outline: 1px dashed red;
+  font-size: 0px;
 }
 .container {
+  outline: 1px dashed red;
   background-color: purple;
-  min-height: 121px;
   width: 768px;
 }
 .footer-contacts {
+  outline: 1px dashed red;
   background-color: red;
-  float: left;
-  width: 211px;
-  margin-right: 60px;
+  display: inline-block;
+  width: 33.333%;
   min-height: 121px;
+  font-size: 14px;
+  vertical-align: top;
 }
 
 .footer-social {
+  outline: 1px dashed red;
   background-color: red;
-  float: left;
-  width: 247px;
+  display: inline-block;
+  width: 33.333%;
   min-height: 121px;
+  font-size: 14px;
+  vertical-align: top;
 }
 
 .footer-copyright {
+  outline: 1px dashed red;
   background-color: red;
-  float: right;
-  width: 180px;
+  display: inline-block;
+  width: 33.333%;
   min-height: 121px;
+  font-size: 14px;
+  vertical-align: top;
 }
 .index-content {
+  outline: 1px dashed red;
   width: 768px;
   min-height: 219px;
 }
 .index-content-left {
+  outline: 1px dashed red;
   width: 458px;
 }
 .column {
+  outline: 1px dashed red;
   background-color: red;
   float: left;
   width: 229px;
   min-height: 219px;
 }
 .index-content-right {
+  outline: 1px dashed red;
   background-color: red;
   float: right;
   width: 310px;
   min-height: 219px;
 }
 .sorting {
+  outline: 1px dashed red;
   background-color: yellow;
   float: left;
   width: 676px;
@@ -177,12 +225,57 @@ h2 {
   margin-left:46px;
   margin-right:46px;
 }
+.sorting li {
+  float: left;
+  margin-right: 10px;
+}
+.sorting p {
+  display: inline-block;
+  padding: 21px;
+  position: relative;
+}
+.sorting li a {
+  display: block;
+  padding: 21px;
+  position: relative;
+}
 .list-hotel {
+  outline: 1px dashed red;
   background-color: red;
-  min-height: 219px;
+  min-height: 454px;
 }
 .hotel {
-  background-color: gray;
-  display-inline-block;
-  min-height: 152px;
+  outline: 1px dashed red;
+  background-color: blue;
+  min-height: 150px;
+  width: 768px;
+  vertical-align: top;
+  font-size: 0px;
+}
+.foto {
+  outline: 1px dashed red;
+  display: inline-block;
+  background-color: red;
+  font-size: 14px;
+  vertical-align: top;
+  margin-left: 46px;
+}
+.reservation {
+  outline: 1px dashed red;
+  display: inline-block;
+  background-color: red;
+  width: 372px;
+  min-height: 150px;
+  font-size: 14px;
+  vertical-align: top;
+}
+.rating {
+  outline: 1px dashed red;
+  display: inline-block;
+  background-color: red;
+  width: 154px;
+  min-height: 150px;
+  font-size: 14px;
+  vertical-align: top;
+  margin-right: 46px;
 }
