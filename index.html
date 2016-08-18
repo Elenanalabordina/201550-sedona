@@ -3,19 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>SEDONA</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="main-header clearfix">
-      <nav class="main-navigation">
-        <ul>
+    <header class="main-header">
+      <nav class="main-navigation clearfix">
+        <ul class="left">
           <li>
             <a href="#">Информация</a>
           </li>
           <li>
             <a href="#">Фото и видео</a>
           </li>
-          <img src="img/logotip.png" width="" height="" alt="">
+        </ul>
+        <ul class="right">
           <li>
             <a href="#">Карта штата</a>
           </li>
@@ -23,6 +25,7 @@
             <a href="#">Гостиницы</a>
           </li>
         </ul>
+        <img src="img/logotip.png" width="" height="" alt="">
       </nav>
     </header>
     <main>
@@ -43,7 +46,7 @@
           <img src="img/realctiy.jpg" width="" height="" alt="">
         </div>
       </div>
-      <div class="features clearfix">
+      <div class="features">
         <div class="features-item">
           <img src="img/house.png" width="" height="" alt="">
           <h2>Жилье</h2>
@@ -70,7 +73,7 @@
           <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
       </div>
       </div>
-      <div class="vantage clearfix">
+      <div class="vantage">
         <div class="vantage-item">
           <h2>Небольшая площадь</h2>
           <p>-№3-</p>
@@ -92,7 +95,6 @@
         <p>Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне<p>
       </div>
       <div class="search">
-        <div class="map"><img src="img/map.jpg" width="" height="" alt=""></div>
         <h2>Поиск гостиницы в седоне</h2>
         <form action="https://echo.htmlacademy.ru" method="post">
         <div class="occupation">
@@ -112,6 +114,7 @@
           <input>0</input>
         </div>
         <a class="btn href="#">Найти</a>
+        <div class="map"><img src="img/map.jpg" width="" height="" alt=""></div>
       </div>
     </main>
     <footer class="main-footer">

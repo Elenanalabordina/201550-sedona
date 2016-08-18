@@ -5,6 +5,8 @@ body {
   font-style: regular;
   font-family: PTSans;
   outline: 1px dashed red;
+  width: 768px;
+  margin: 0 auto;
 }
 h1 {
   font-size: 30px;
@@ -50,9 +52,20 @@ h2 {
   position: relative;
   padding: 21px;
 }
-.main-navigation li img {
-  display: block;
+.main-navigation  img {
+  position: absolute;
   margin: 0 auto;
+}
+.main-navigation div {
+  padding: 20px;
+}
+.left {
+  float: left;
+  margin-right: 10px;
+}
+.right {
+  float: right;
+  margin-right: 10px;
 }
 .main {
   outline: 1px dashed red;
@@ -197,6 +210,7 @@ h2 {
   outline: 1px dashed red;
   width: 768px;
   min-height: 219px;
+  background: url("img/filter.jpg") no-repeat 768px 220px;
 }
 .index-content-left {
   outline: 1px dashed red;
@@ -204,36 +218,34 @@ h2 {
 }
 .column {
   outline: 1px dashed red;
-  background-color: red;
   float: left;
-  width: 229px;
+  width: 228px;
   min-height: 219px;
 }
 .index-content-right {
   outline: 1px dashed red;
-  background-color: red;
   float: right;
   width: 310px;
   min-height: 219px;
 }
 .sorting {
   outline: 1px dashed red;
-  background-color: yellow;
   float: left;
   width: 676px;
-  min-height: 219px;
+
   margin-left:46px;
   margin-right:46px;
+  vertical-align: top;
 }
 .sorting li {
   float: left;
   margin-right: 10px;
 }
-.sorting p {
+//.sorting p {
   display: inline-block;
   padding: 21px;
   position: relative;
-}
+}//
 .sorting li a {
   display: block;
   padding: 21px;
@@ -264,7 +276,7 @@ h2 {
   outline: 1px dashed red;
   display: inline-block;
   background-color: red;
-  width: 372px;
+  width: 380px;
   min-height: 150px;
   font-size: 14px;
   vertical-align: top;
@@ -273,9 +285,12 @@ h2 {
   outline: 1px dashed red;
   display: inline-block;
   background-color: red;
-  width: 154px;
+  width: 160px;
   min-height: 150px;
   font-size: 14px;
   vertical-align: top;
-  margin-right: 46px;
+
+}
+.index-content img {
+  float: left;
 }
