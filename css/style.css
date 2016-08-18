@@ -161,6 +161,8 @@ h2 {
   background-color: red;
   width: 600px;
   min-height: 518px;
+  position: absolute;
+  margin-left: 80px;
 }
 .map {
   outline: 1px dashed red;
@@ -210,7 +212,7 @@ h2 {
   outline: 1px dashed red;
   width: 768px;
   min-height: 219px;
-  background: url("../img/filter.jpg") no-repeat 768px 220px;
+  background: url("../img/filter.jpg") no-repeat;
 }
 .index-content-left {
   outline: 1px dashed red;
