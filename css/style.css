@@ -31,14 +31,11 @@ h2 {
 }
 .main-haeder {
   outline: 1px dashed red;
-  background-color: red;
-  min-height: 57px;
   width: 768px;
 }
 .main-navigation {
   outline: 1px dashed red;
-  background-color: yellow;
-  min-height: 57px;
+  min-height: 15px;
   width: 768px;
   text-align:center;
   vertical-align: top;
@@ -55,6 +52,7 @@ h2 {
 .main-navigation  img {
   position: absolute;
   margin: 0 auto;
+  left: 900px;
 }
 .main-navigation div {
   padding: 20px;
@@ -69,27 +67,32 @@ h2 {
 }
 .main {
   outline: 1px dashed red;
-  background-color: gray;
   width:768px;
 }
 .basic background {
   outline: 1px dashed red;
-  background-color: blue;
-  float: left;
+  font-size: 0px;
   width: 768px;
   min-height: 513px;
 }
+.basic background img {
+  display: block;
+}
 .text {
   outline: 1px dashed red;
-  background-color: green;
-  display: inline-block;
-  width: 488px;
+  display: block;
+  width: 494px;
   min-height: 212px;
-  margin-left: 141px;
+  margin: 0 auto;
+  font-size: 0px;
+}
+.text p{
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .info {
   outline: 1px dashed red;
-  background-color: orange;
   width: 768px;
   min-height: 255px;
 }
@@ -121,14 +124,12 @@ h2 {
 }
 .features {
   outline: 1px dashed red;
-  background-color: black;
   width: 768px;
   font-size: 0px;
 }
 .features-item {
   outline: 1px dashed red;
   display: inline-block;
-  background-color: red;
   width: 33.333%;
   min-height: 333px;
   vertical-align: top;
@@ -136,40 +137,55 @@ h2 {
 }
 .vantage {
   outline: 1px dashed red;
-  background-color: pink;
   width: 768px;
   font-size: 0px;
 }
 .vantage-item {
   outline: 1px dashed red;
   display: inline-block;
-  background-color: red;
   width: 33.333%;
   min-height: 185px;
   font-size: 14px;
 }
 .content {
   outline: 1px dashed red;
-  background-color: green;
-  display: inline-block;
-  min-height: 291px;
+  display: block;
+  min-height: 207px;
   width: 438px;
-  margin-left: 166px;
+  margin: 0 auto;
+}
+.content h1 {
+  margin-top: 0px;
+}
+.scan {
+  outline: 1px dashed red;
+  display: block;
+  background-color: #766357;
+  margin: 0 auto;
+  min-height: 84px;
+  width: 571px;
+}
+.scan h2 {
+  margin-bottom: 0px;
+  padding-top: 26px;
 }
 .search {
+  background-color: #d4c2bb;
   outline: 1px dashed red;
-  background-color: red;
-  width: 600px;
+  width: 571px;
   min-height: 518px;
   position: absolute;
-  margin-left: 80px;
-  top: 2067px;
+  margin-left: 100px;
+  top: 2173px;
+  bottom: 197px;
 }
 .map {
   outline: 1px dashed red;
-  background-color: blue;
   width: 768px;
   min-height: 472px;
+}
+.map img {
+  display: block;
 }
 .main-footer {
   outline: 1px dashed red;
@@ -182,7 +198,6 @@ h2 {
 }
 .footer-contacts {
   outline: 1px dashed red;
-  background-color: red;
   display: inline-block;
   width: 33.333%;
   min-height: 121px;
@@ -192,7 +207,6 @@ h2 {
 
 .footer-social {
   outline: 1px dashed red;
-  background-color: red;
   display: inline-block;
   width: 33.333%;
   min-height: 121px;
@@ -202,7 +216,6 @@ h2 {
 
 .footer-copyright {
   outline: 1px dashed red;
-  background-color: red;
   display: inline-block;
   width: 33.333%;
   min-height: 121px;
@@ -235,33 +248,40 @@ h2 {
   outline: 1px dashed red;
   float: left;
   width: 676px;
-
   margin-left:46px;
   margin-right:46px;
   vertical-align: top;
+}
+.sorting h2 {
+  float: left;
+  margin-right: 10px;
+  padding: 17px;
+  padding-left: 0;
 }
 .sorting li {
   float: left;
   margin-right: 10px;
 }
-//.sorting p {
-  display: inline-block;
-  padding: 21px;
+.sorting p {
+  float: left;
+  padding: 22px;
   position: relative;
-}//
+}
 .sorting li a {
   display: block;
   padding: 21px;
   position: relative;
 }
+.sorting li div {
+  float: left;
+  padding: 21px;
+}
 .list-hotel {
   outline: 1px dashed red;
-  background-color: red;
   min-height: 454px;
 }
 .hotel {
   outline: 1px dashed red;
-  background-color: blue;
   min-height: 150px;
   width: 768px;
   vertical-align: top;
@@ -270,7 +290,6 @@ h2 {
 .foto {
   outline: 1px dashed red;
   display: inline-block;
-  background-color: red;
   font-size: 14px;
   vertical-align: top;
   margin-left: 46px;
@@ -278,7 +297,6 @@ h2 {
 .reservation {
   outline: 1px dashed red;
   display: inline-block;
-  background-color: red;
   width: 380px;
   min-height: 150px;
   font-size: 14px;
@@ -287,7 +305,6 @@ h2 {
 .rating {
   outline: 1px dashed red;
   display: inline-block;
-  background-color: red;
   width: 160px;
   min-height: 150px;
   font-size: 14px;
