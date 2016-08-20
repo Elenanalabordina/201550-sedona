@@ -75,8 +75,9 @@ h2 {
   width: 768px;
   min-height: 513px;
 }
-.basic background img {
+img {
   display: block;
+  vertical-align: top;
 }
 .text {
   outline: 1px dashed red;
@@ -157,6 +158,9 @@ h2 {
 .content h1 {
   margin-top: 0px;
 }
+.content p {
+  margin-bottom: 0px;
+}
 .scan {
   outline: 1px dashed red;
   display: block;
@@ -166,8 +170,10 @@ h2 {
   width: 571px;
 }
 .scan h2 {
+  margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 26px;
+
 }
 .search {
   background-color: #d4c2bb;
@@ -175,8 +181,8 @@ h2 {
   width: 571px;
   min-height: 518px;
   position: absolute;
-  margin-left: 100px;
-  top: 2173px;
+  margin-left: 98px;
+  top: 2135px;
   bottom: 197px;
 }
 .map {
@@ -195,6 +201,7 @@ h2 {
   outline: 1px dashed red;
   background-color: purple;
   width: 768px;
+  margin: o auto;
 }
 .footer-contacts {
   outline: 1px dashed red;
@@ -247,16 +254,17 @@ h2 {
 .sorting {
   outline: 1px dashed red;
   float: left;
-  width: 676px;
-  margin-left:46px;
-  margin-right:46px;
   vertical-align: top;
+  margin: 0 auto;
 }
 .sorting h2 {
   float: left;
   margin-right: 10px;
-  padding: 17px;
+  padding: 10px;
   padding-left: 0;
+}
+.sorting ul {
+  float: left;
 }
 .sorting li {
   float: left;
@@ -264,28 +272,20 @@ h2 {
 }
 .sorting p {
   float: left;
-  padding: 22px;
-  position: relative;
-}
-.sorting li a {
-  display: block;
-  padding: 21px;
-  position: relative;
+  padding: 15px;
 }
 .sorting li div {
   float: left;
-  padding: 21px;
+  padding: 15px;
+}
+.sorting li a{
+  float: left;
+  padding: 20px;
 }
 .list-hotel {
+  float: left;
   outline: 1px dashed red;
   min-height: 454px;
-}
-.hotel {
-  outline: 1px dashed red;
-  min-height: 150px;
-  width: 768px;
-  vertical-align: top;
-  font-size: 0px;
 }
 .foto {
   outline: 1px dashed red;
