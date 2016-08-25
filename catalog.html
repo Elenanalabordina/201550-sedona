@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>SEDONA</title>
+    <link href="css/PTSans" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -69,21 +70,20 @@
           </div>
         </div>
         <div class="index-content-right">
-          <h3>Стоимость в сутки(p):</h3>
-          <div class="range-filter">
+          <div class="filter-range">
+            <div class="filter-range-title">Стоимость в сутки(p):</div>
+            <div class="price-controls">
+              <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+              <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+            </div>
             <div class="range-controls">
               <div class="scale">
-                <div  class="bar"></div>
+                <div class="bar"></div>
               </div>
-              <div class="toggle min-toggle"></div>
-              <div class="toggle max-toggle"></div>
+              <div class="range-toggle range-toggle-min"></div>
+              <div class="range-toggle range-toggle-max"></div>
             </div>
-            <div class="price-controls">
-              <input class="min-price" type="text" value="от 0">
-              <input class="max-price" type="text" value="до 3000">
-            </div>
-          </div>
-          <input type="submit" value="Показать">
+          <button class="btn-transparent" type="submit">Показать</button>
         </div>
       </div>
       <div class="sorting clearfix">
@@ -101,11 +101,11 @@
               <a href="#">По рейтенгу</a>
             </li>
           </ul>
-          <ul class="clearfix">
-            <li>
+          <ul class="switch clearfix">
+            <li class="upwards">
               <a href="#"></a>
             </li>
-            <li>
+            <li class="down">
               <a href="#"></a>
             </li>
           </ul>
@@ -156,7 +156,7 @@
         </div>
         <div class="footer-copyright">
           <p>Website by</p>
-          <img src="img/htmlacademy.png" width="" height="" alt="">
+          <a class="btn" href="https://htmlacademy.ru"><img src="img/htmlacademy.png" width="" height="" alt=""></a>
         </div>
       </div>
     </footer>
