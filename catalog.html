@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>SEDONA</title>
-    <link href="css/PTSans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -34,7 +34,7 @@
     <main>
       <div class="index-content clearfix">
         <div class="index-content-left">
-          <div class="column">
+          <div class="column column-left">
             <h3>Инфраструктура:</h3>
             <ul>
               <li>
@@ -51,7 +51,7 @@
               </li>
             </ul>
           </div>
-          <div class="column">
+          <div class="column column-right">
             <h3>Тип жилья:</h3>
             <ul>
               <li>
@@ -71,7 +71,7 @@
         </div>
         <div class="index-content-right">
           <div class="filter-range">
-            <div class="filter-range-title">Стоимость в сутки(p):</div>
+            <div class="filter-range-title">Стоимость в сутки (p):</div>
             <div class="price-controls">
               <label class="min-price">от <input type="text" name="min-price" value="0"></label>
               <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
@@ -83,7 +83,8 @@
               <div class="range-toggle range-toggle-min"></div>
               <div class="range-toggle range-toggle-max"></div>
             </div>
-          <button class="btn-transparent" type="submit">Показать</button>
+            <button class="btn-transparent" type="submit">Показать</button>
+          </div>
         </div>
       </div>
       <div class="sorting clearfix">
@@ -92,7 +93,7 @@
           <p>Сортировка:</p>
           <ul class="clearfix">
             <li>
-              <div>По цене</div>
+              <div class="cost">По цене</div>
             </li>
             <li>
               <a href="#">По типу</a>
@@ -112,40 +113,42 @@
         </div>
       </div>
       <div class="list-hotel clearfix">
-        <div class="container">
+        <div class="container border">
           <img class="foto" src="img/amara.jpg" width="" height="" alt="">
           <div class="reservation">
-            <h2>Amara rasort & spa</h2>
-            <p>Гостиница от 3500р.</p>
-            <a class="btn href="#">Подробнее</a>
-            <a class="btn href="#">Забронировать</a>
+            <h2>Amara resort & spa</h2>
+            <p>Гостиница</p>
+            <p class="number number-hotel">от 3500 р.</p>
+            <a class="btn btn-detailed" href="#">Подробнее</a>
+            <a class="btn btn-reservation" href="#">Забронировать</a>
           </div>
-          <div class="rating"><p>Рейтинг: 8,5</p></div>
+          <div class="rating rating-hotel"><p>Рейтинг: 8,5</p></div>
         </div>
-        <div class="container">
+        <div class="container border">
           <img class="foto" src="img/desertquail.jpg" width="" height="" alt="">
           <div class="reservation">
             <h2>Desert Quail inn</h2>
-            <p>Мотель от 2000р.</p>
-            <a class="btn href="#">Подробнее</a>
-            <a class="btn href="#">Забронировать</a>
+            <p>Мотель</p>
+            <p class="number number-motel">от 2000 р.</p>
+            <a class="btn btn-detailed" href="#">Подробнее</a>
+            <a class="btn btn-reservation" href="#">Забронировать</a>
           </div>
-          <div class="rating"><p>Рейтинг: 8,9</p></div>
+          <div class="rating rating-motel"><p>Рейтинг: 8,9</p></div>
         </div>
-        <div class="container">
+        <div class="container border">
           <img class="foto" src="img/villasatpoco.jpg" width="" height="" alt="">
           <div class="reservation">
             <h2>Villas at poco diablo</h2>
-            <p>Апартаменты от 4000р.</p>
-            <a class="btn href="#">Подробнее</a>
-            <a class="btn href="#">Забронировать</a>
+            <p>Апартаменты</p>
+            <p class="number number-apartments">от 4000 р.</p>
+            <a class="btn btn-detailed" href="#">Подробнее</a>
+            <a class="btn btn-reservation" href="#">Забронировать</a>
             </div>
-          <div class="rating"><p>Рейтинг: 9,2</p></div>
+          <div class="rating rating-apartments"><p>Рейтинг: 9,2</p></div>
         </div>
       </div>
     </main>
     <footer class="main-footer">
-      <div class="container">
         <div class="footer-contacts">
           <a href="#">#VISITSEDONA</a>
         </div>
@@ -156,9 +159,8 @@
         </div>
         <div class="footer-copyright">
           <p>Website by</p>
-          <a class="btn" href="https://htmlacademy.ru"><img src="img/htmlacademy.png" width="" height="" alt=""></a>
+          <a href="https://htmlacademy.ru"></a>
         </div>
-      </div>
     </footer>
   </body>
 </html>

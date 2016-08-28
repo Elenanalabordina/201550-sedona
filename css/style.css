@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   line-height: 21px;
   font-style: regular;
-  font-family: "PT Sans", "Arial";
+  font-family: "PT Sans", "Arial", sans-serif;
   outline: 1px dashed red;
   width: 768px;
   margin: 0 auto;
@@ -48,6 +48,7 @@ h2 {
 }
 .main-navigation li {
   color: #000000;
+  font-family: "PT Sans", "Arial" sans-serif;
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
@@ -62,7 +63,7 @@ h2 {
 .main-navigation  img {
   position: absolute;
   margin: 0 auto;
-  left: 290px;
+  left: 269px;
 }
 .left {
   float: left;
@@ -72,6 +73,7 @@ h2 {
 }
 .right li {
   padding: 15px 0 15px 58px;
+  margin-left: 17px;
 }
 .main {
   outline: 1px dashed red;
@@ -112,8 +114,8 @@ img {
   font-size: 14px;
   line-height: 26px;
   font-weight: regular;
-  padding-top: 23px;
-  padding-bottom: 56px;
+  padding-top: 28px;
+  padding-bottom: 50px;
   text-align: center;
 }
 .info {
@@ -150,11 +152,17 @@ img {
   width: 254px;
   min-height: 255px;
 }
+.indent {
+  padding: 7px 37px 0 35px;
+}
 .info h2 {
   color: #ffffff;
   font-size: 21px;
   line-height: 21px;
-  padding-top: 35px;
+  padding: 30px 53px 5px 50px;
+}
+.info .rubric {
+  padding: 7px 30px 0 27px;
 }
 .features {
   outline: 1px dashed red;
@@ -177,8 +185,20 @@ img {
   margin-top: 60px;
 }
 .features-item h2 {
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+.features-item p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.souvenir img {
+  margin-left: 95px;
+  margin-top: 55px;
+}
+.souvenir p {
+  padding-left: 42px;
+  padding-right: 42px;
 }
 .vantage {
   outline: 1px dashed red;
@@ -193,21 +213,31 @@ img {
   width: 33.333%;
   min-height: 256px;
   font-size: 14px;
+  vertical-align: top;
 }
 .vantage-item h2 {
   padding-top: 30px;
+  padding-bottom: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.vantage-item .rubric {
+  padding-top: 7px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .content {
   outline: 1px dashed red;
   display: block;
-  min-height: 207px;
+  min-height: 205px;
   width: 438px;
   margin: 0 auto;
   text-align: center;
 }
 .content h1 {
   margin-top: 0px;
-  padding-top: 58px;
+  padding-top: 55px;
+  padding-bottom: 10px;
 }
 .content p {
   margin-bottom: 0px;
@@ -218,13 +248,13 @@ img {
   display: block;
   background-color: #766357;
   margin: 0 auto;
-  min-height: 87px;
-  width: 571px;
+  min-height: 86px;
+  width: 567px;
 }
 .scan h2 {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 30px;
+  padding-top: 29px;
   text-align: center;
   color: #ffffff;
   font-size: 21px;
@@ -233,10 +263,10 @@ img {
 .search {
   background-color: #d4c2bb;
   outline: 1px dashed red;
-  width: 571px;
-  min-height: 396px;
+  width: 567px;
+  min-height: 392px;
   position: absolute;
-  margin-left: 98px;
+  margin-left: 100px;
   top: 2173px;
   bottom: 197px;
   text-align: center;
@@ -265,6 +295,7 @@ img {
 }
 .occupation {
   position: relative;
+  top: -5px;
 }
 .occupation a::before {
   content: "";
@@ -307,6 +338,7 @@ img {
 }
 .departure {
   position: relative;
+  top: -10px;
 }
 .departure a::before {
   content: "";
@@ -332,6 +364,7 @@ img {
 }
 .abulf {
   position: relative;
+  top: -15px;
   display: inline-block;
   margin-right: 20px;
 }
@@ -381,6 +414,7 @@ img {
 }
 .children {
   position: relative;
+  top: -15px;
   display: inline-block;
   margin-left: 20px;
 }
@@ -474,12 +508,9 @@ img {
 
 .map {
   outline: 1px dashed red;
-  width: 768px;
-  min-height: 472px;
-}
-.map img {
   display: block;
   background-image: url("../img/map.jpg");
+  width: 768px;
   min-height: 472px;
 }
 .main-footer {
@@ -489,22 +520,22 @@ img {
 .container {
   outline: 1px dashed red;
   background-color: purple;
-  padding-left: 47px;
-  padding-right: 47px;
+  padding-left: 46px;
+  padding-right: 46px;
   margin: o auto;
 }
 .footer-contacts {
   outline: 1px dashed red;
   display: inline-block;
-  width: 33.333%;
+  width: 187px;
   min-height: 71px;
   font-size: 14px;
   vertical-align: top;
-  text-align: center;
   padding-top: 50px;
   font-size: 21px;
   font-weight: bold;
   text-decoration: none;
+  padding-left: 60px;
 }
 .footer-contacts a {
   text-decoration: none;
@@ -513,12 +544,13 @@ img {
 .footer-social {
   outline: 1px dashed red;
   display: inline-block;
-  width: 33.333%;
+  width: 237px;
   min-height: 71px;
   font-size: 14px;
   vertical-align: top;
   text-align: center;
-  padding-top: 36px;
+  padding-top: 38px;
+  padding-left: 20px;
 }
 .social-btn {
   display: inline-block;
@@ -536,70 +568,85 @@ img {
   background-color: #669ec0;
 }
 .social-btn-t {
-  background-position: 5px -1253px;
+  background-position: 5px -1311px;
 }
 
 .social-btn-fb {
-  background-position: 8px -1217px;
+  background-position: 8px -1276px;
 }
 
 .social-btn-you {
-  background-position: 4px -477px;
+  background-position: -2px -432px;
 }
 .social-btn-t:active {
-  background-color: #669ec0;
+  background-color: #5496bd;
   background-position: 5px -934px;
 }
 
 .social-btn-fb:active {
-  background-color: #669ec0;
+  background-color: #5496bd;
   background-position: 8px -198px;
 }
 
 .social-btn-you:active {
-  background-color: #669ec0;
+  background-color: #5496bd;
   background-position: 3px -160px;
 }
 .footer-copyright {
   outline: 1px dashed red;
   display: inline-block;
-  width: 33.333%;
-  min-height: 121px;
+  width: 244px;
   font-size: 14px;
   vertical-align: top;
   text-align: center;
   padding-top: 42px;
+  padding-left: 16px;
 }
 .footer-copyright p {
   display: inline-block;
   font-size: 14px;
   line-height: 26px;
 }
-.footer-copyright .btn {
+.footer-copyright a {
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -10px -1229px;
   display: inline-block;
+  width: 117px;
+  height: 40px;
 }
-.footer-copyright img:hover {
+.footer-copyright a:hover {
   background: url("../img/sprite.png") no-repeat;
   background-position: -10px -1128px;
+}
+.footer-copyright a:active {
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -10px -672px;
 }
 
 .index-content {
   outline: 1px dashed red;
-  width: 768px;
+  width: 674px;
   min-height: 219px;
   background: url("../img/filter.jpg") no-repeat;
+  padding-left: 47px;
+  padding-right: 47px;
 }
 .index-content-left {
+  float: left;
   outline: 1px dashed red;
-  width: 458px;
+
 }
 .column {
   outline: 1px dashed red;
   float: left;
   min-height: 219px;
   color: #ffffff;
-  padding-left: 46px;
-
+}
+.column-left {
+  width: 241px;
+}
+.column-right {
+  width: 210px;
 }
 .column ul {
   padding: 0;
@@ -607,13 +654,14 @@ img {
   list-style: none;
 }
 .column li {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .column h3 {
   padding-top: 12px;
   font-size: 16px;
   line-height: 21px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 .column input {
   width: 19px;
@@ -623,57 +671,59 @@ img {
 .index-content-right {
   outline: 1px dashed red;
   float: right;
-  width: 310px;
+
   min-height: 219px;
 }
+.border {
+  border-bottom: 1px solid #e5e5e5;
+}
 .sorting {
-  outline: 1px dashed red;
-  float: left;
+  min-height: 86px
   vertical-align: top;
   margin: 0 auto;
   font-size: 12px;
   line-height: 18px;
+  border-bottom: 1px solid #e5e5e5;
 }
 .sorting h2 {
-  outline: 1px dashed red;
   float: left;
-  margin-right: 10px;
-  padding: 10px;
+  margin-right: 27px;
+  padding: 13px;
   padding-left: 0;
 }
+.sorting span {
+  padding-left: 4px;
+}
 .sorting ul {
-  outline: 1px dashed red;
   float: left;
   list-style: none;
   padding: 0;
   margin: 0;
+  padding-top: 30px;
+}
+.sorting .switch  {
+  float: right;
 }
 .sorting li {
-  outline: 1px dashed red;
   float: left;
-  margin-right: 10px;
+  margin-right: 30px;
   margin-top: 5px;
 }
 .sorting p {
-  outline: 1px dashed red;
   float: left;
-  padding: 15px;
+  padding-left: 9px;
+  padding-top: 23px;
   font-size: 12px;
   line-height: 18px;
   color: #000000;
 }
-.sorting div {
-  outline: 1px dashed red;
-  float: left;
-  padding: 15px;
+.sorting .cost {
+  padding-left: 40px;
   color: #81b3d2;
-  padding-top: 20px;
 }
 .sorting a{
-  outline: 1px dashed red;
-  float: left;
-  padding: 20px;
-  color: #f9f9f9;
+  padding-left: 2px;
+  color: #dbdbdb;
   font-size: 12px;
   line-height: 18px;
   text-decoration: none;
@@ -686,19 +736,37 @@ img {
 }
 .switch .upwards {
   background: url("../img/sprite.png") no-repeat center;
-  background-position: 5px -1000px;
+  background-position: -9px -985px;
+  width: 20px;
+  height: 30px;
+  margin-right: 0;
 }
 .switch .down {
   background: url("../img/sprite.png") no-repeat center;
-  background-position: 5px -970px;
+  background-position: -6px -854px;
+  width: 15px;
+  height: 30px;
+  margin-right: 0;
 }
-.switch a {
+.switch .upwards:hover {
+  background: url("../img/sprite.png") no-repeat center;
+  background-position: -9px -781px;
+}
+.switch .upwards:active {
+  background: url("../img/sprite.png") no-repeat center;
+  background-position: -9px -413px;
+}
+.switch .down:hover {
+    background: url("../img/sprite.png") no-repeat center;
+    background-position: -6px -639px;
+  }
+.switch .down:active {
+    background: url("../img/sprite.png") no-repeat center;
+    background-position: -6px -1016px;
 }
 .filter-range {
   color: #ffffff;
   text-transform: uppercase;
-  margin-left: 42px;
-  margin-right: 46px;
   padding-top: 29px;
 }
 .filter-range-title {
@@ -709,7 +777,7 @@ img {
 }
 .price-controls {
   position: relative;
-  height: 36px;
+  height: 32px;
   margin-bottom: 20px;
   font-size: 0;
   border: 2px solid #ffffff;
@@ -798,42 +866,148 @@ img {
 }
 .list-hotel {
   float: left;
-  outline: 1px dashed red;
   min-height: 454px;
 }
 .list-hotel .foto {
   display: inline-block;
   padding-left: 0;
   margin: 0;
+  padding-top: 35px;
 }
 
 .reservation {
-  outline: 1px dashed red;
   display: inline-block;
-  width: 375px;
+  width: 343px;
   min-height: 150px;
   font-size: 14px;
   vertical-align: top;
+  padding-left: 27px;
+}
+.reservation h2 {
+  font-size: 21px;
+  line-height: 26px;
+  margin-top: 29px;
+  margin-bottom: 0;
+
+}
+.reservation p {
+  padding-top: 8px;
+  margin: 0;
+  padding-bottom: 12px;
+  padding-right: 35px;
+  display: inline-block;
+}
+.reservation .number {
+  margin-right: 40px;
+}
+.reservation .number-motel {
+  padding-left: 25px;
+}
+.reservation .number-apartments {
+
 }
 .rating {
-  outline: 1px dashed red;
+  position: relative;
   display: inline-block;
-  width: 160px;
   min-height: 150px;
   font-size: 14px;
   vertical-align: top;
-
+  padding-top: 2px;
+  padding-left: 3px;
+}
+.rating-hotel::before {
+  content: "";
+  position: absolute;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -10px -107px;
+  width: 90px;
+  height: 23px;
+  margin-top: 31px;
+  margin-left: 72px;
+}
+.rating-motel::before {
+  content: "";
+  position: absolute;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -10px -33px;
+  width: 90px;
+  height: 23px;
+  margin-top: 30px;
+  margin-left: 119px;
+}
+.rating-apartments::before {
+  content: "";
+  position: absolute;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -10px -70px;
+  width: 90px;
+  height: 23px;
+  margin-top: 29px;
+  margin-left: 96px;
+}
+.rating p {
+  width: 110px;
+  height: 22px;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding-top: 4px;
+  color: #666666;
+  margin-left: 50px;
+  margin-top: 94px;
+  font-size: 14px;
+  line-height: 21px;
 }
 .index-content img {
   float: left;
+}
+.btn-detailed {
+  display: inline-block;
+  width: 110px;
+  height: 23px;
+  background: #81b3d2  center;
+  vertical-align: top;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+}
+.btn-detailed:hover {
+  background: #669ec0;
+}
+.btn-detailed:active {
+  background: #5496bd;
+  color: #94b9d2;
+}
+.btn-reservation {
+  display: inline-block;
+  width: 142px;
+  height: 23px;
+  background: #766357  center;
+  vertical-align: top;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  margin-left: 3px;
+}
+.btn-reservation:hover {
+  background: #604e43;
+}
+.btn-reservation:active {
+  background: #503e33;
+  color: #928a85;
 }
 .sprite {
     background-image: url(../img/sprite.png);
     background-repeat: no-repeat;
     display: block;
 }
-
-
 .sprite-- {
     width: 12px;
     height: 3px;
@@ -914,14 +1088,14 @@ img {
 
 .sprite-____ {
     width: 20px;
-    height: 23px;
+    height: 16px;
     background-position: -10px -448px;
 }
 
 .sprite-____ {
     width: 20px;
-    height: 16px;
-    background-position: -10px -491px;
+    height: 23px;
+    background-position: -10px -484px;
 }
 
 .sprite-____-___ {
@@ -943,15 +1117,15 @@ img {
 }
 
 .sprite-____-____ {
-    width: 113px;
-    height: 39px;
+    width: 11px;
+    height: 10px;
     background-position: -10px -642px;
 }
 
 .sprite-____-____ {
-    width: 11px;
-    height: 10px;
-    background-position: -10px -701px;
+    width: 113px;
+    height: 39px;
+    background-position: -10px -672px;
 }
 
 .sprite-____-____ {
@@ -973,79 +1147,85 @@ img {
 }
 
 .sprite-_____-___ {
-    width: 4px;
-    height: 5px;
+    width: 21px;
+    height: 22px;
     background-position: -10px -815px;
 }
 
 .sprite-_____-___ {
-    width: 21px;
-    height: 22px;
-    background-position: -10px -840px;
+    width: 11px;
+    height: 10px;
+    background-position: -10px -857px;
 }
 
 .sprite-_____-___ {
     width: 4px;
     height: 5px;
-    background-position: -10px -882px;
+    background-position: -10px -887px;
 }
 
 .sprite-_____-___ {
     width: 21px;
     height: 22px;
-    background-position: -10px -907px;
+    background-position: -10px -912px;
 }
 
 .sprite-_____-______ {
     width: 17px;
     height: 15px;
-    background-position: -10px -949px;
+    background-position: -10px -954px;
 }
 
 .sprite-______ {
     width: 11px;
     height: 10px;
-    background-position: -10px -984px;
+    background-position: -10px -989px;
 }
 
 .sprite-______ {
     width: 11px;
     height: 10px;
-    background-position: -10px -1014px;
+    background-position: -10px -1019px;
 }
 
 .sprite-______-___ {
     width: 26px;
     height: 22px;
-    background-position: -10px -1044px;
+    background-position: -10px -1049px;
 }
 
 .sprite-______-___ {
     width: 26px;
     height: 22px;
-    background-position: -10px -1086px;
+    background-position: -10px -1091px;
 }
 
 .sprite-_______-___ {
     width: 113px;
     height: 39px;
-    background-position: -10px -1128px;
+    background-position: -10px -1133px;
 }
 
 .sprite-_________ {
     width: 21px;
     height: 22px;
-    background-position: -10px -1187px;
+    background-position: -10px -1192px;
+}
+
+.sprite-_________________ {
+    width: 113px;
+    height: 39px;
+    background-position: -10px -1234px;
 }
 
 .sprite-f {
     width: 10px;
     height: 19px;
-    background-position: -10px -1229px;
+    background-position: -10px -1293px;
 }
 
 .sprite-t {
     width: 17px;
     height: 15px;
-    background-position: -10px -1268px;
+    background-position: -10px -1332px;
 }
