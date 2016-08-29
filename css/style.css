@@ -218,13 +218,13 @@ img {
 .vantage-item h2 {
   padding-top: 30px;
   padding-bottom: 6px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .vantage-item .rubric {
   padding-top: 7px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .content {
   outline: 1px dashed red;
@@ -301,23 +301,23 @@ img {
   content: "";
   position: absolute;
   top: 65px;
-  right: 70px;
+  right: 62px;
   background: url("../img/sprite.png") no-repeat;
   width: 22px;
   height: 23px;
-  background-position: -10px -1187px;
+  background-position: -10px -1193px;
 }
 .occupation a:hover::before {
   background: url("../img/sprite.png") no-repeat;
   width: 22px;
   height: 23px;
-  background-position: -10px -840px;
+  background-position: -10px -912px;
 }
 .occupation a:active::before {
   background: url("../img/sprite.png") no-repeat;
   width: 22px;
   height: 23px;
-  background-position: -10px -907px;
+  background-position: -10px -815px;
 }
 .departure input {
   width: 332px;
@@ -344,23 +344,23 @@ img {
   content: "";
   position: absolute;
   top: 42px;
-  right: 70px;
+  right: 61px;
   background: url("../img/sprite.png") no-repeat;
   width: 22px;
   height: 23px;
-  background-position: -10px -1187px;
+  background-position: -10px -1194px;
 }
 .departure a:hover::before {
   background: url("../img/sprite.png") no-repeat;
   width: 22px;
   height: 23px;
-  background-position: -10px -840px;
+  background-position: -10px -912px;
 }
 .departure a:active::before {
   background: url("../img/sprite.png") no-repeat;
   width: 22px;
   height: 23px;
-  background-position: -10px -907px;
+  background-position: -10px -815px;
 }
 .abulf {
   position: relative;
@@ -484,7 +484,7 @@ img {
 }
 .btn input {
   display: inline-block;
-  margin-top: 54px;
+  margin-top: 37px;
   width: 458px;
   border: none;
   min-height: 58px;
@@ -549,14 +549,14 @@ img {
   font-size: 14px;
   vertical-align: top;
   text-align: center;
-  padding-top: 38px;
+  padding-top: 34px;
   padding-left: 20px;
 }
 .social-btn {
   display: inline-block;
   width: 47px;
   height: 47px;
-  margin: 0 2px;
+  margin: 0 1px;
 
   background: #81b3d2 url("../img/sprite.png") no-repeat center;
   font-size: 0;
@@ -568,15 +568,15 @@ img {
   background-color: #669ec0;
 }
 .social-btn-t {
-  background-position: 5px -1311px;
+  background-position: 5px -1313px;
 }
 
 .social-btn-fb {
-  background-position: 8px -1276px;
+  background-position: 8px -1278px;
 }
 
 .social-btn-you {
-  background-position: -2px -432px;
+  background-position: -0px -431px;
 }
 .social-btn-t:active {
   background-color: #5496bd;
@@ -599,24 +599,27 @@ img {
   font-size: 14px;
   vertical-align: top;
   text-align: center;
-  padding-top: 42px;
-  padding-left: 16px;
+  padding-top: 38px;
+  padding-left: 19px;
 }
 .footer-copyright p {
   display: inline-block;
   font-size: 14px;
   line-height: 26px;
+  vertical-align: top;
+  margin-top: 8px;
+  margin-right: 10px;
 }
 .footer-copyright a {
   background: url("../img/sprite.png") no-repeat;
-  background-position: -10px -1229px;
+  background-position: -10px -1233px;
   display: inline-block;
   width: 117px;
   height: 40px;
 }
 .footer-copyright a:hover {
   background: url("../img/sprite.png") no-repeat;
-  background-position: -10px -1128px;
+  background-position: -10px -1132px;
 }
 .footer-copyright a:active {
   background: url("../img/sprite.png") no-repeat;
@@ -671,7 +674,7 @@ img {
 .index-content-right {
   outline: 1px dashed red;
   float: right;
-
+  width: 223px;
   min-height: 219px;
 }
 .border {
@@ -768,6 +771,7 @@ img {
   color: #ffffff;
   text-transform: uppercase;
   padding-top: 29px;
+
 }
 .filter-range-title {
   margin-bottom: 9px;
@@ -796,13 +800,14 @@ img {
 .price-controls label {
   display: inline-block;
   font-size: 14px;
-  line-height: 38px;
+  line-height: 35px;
   vertical-align: top;
   cursor: pointer;
 }
 .price-controls .min-price,
 .price-controls .max-price {
-  padding-left: 35px;
+  padding-left: 32px;
+  width: 75px;
 }
 .price-controls input {
   width: 50px;
@@ -888,7 +893,12 @@ img {
   line-height: 26px;
   margin-top: 29px;
   margin-bottom: 0;
-
+}
+.reservation h2:hover {
+  color: #81b3d2;
+}
+.reservation h2:active {
+  color: #cacaca;
 }
 .reservation p {
   padding-top: 8px;
