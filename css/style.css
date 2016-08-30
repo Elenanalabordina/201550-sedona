@@ -4,7 +4,6 @@ body {
   line-height: 21px;
   font-style: regular;
   font-family: "PT Sans", "Arial", sans-serif;
-  outline: 1px dashed red;
   width: 768px;
   margin: 0 auto;
   text-transform: uppercase;
@@ -36,7 +35,6 @@ h2 {
 }
 .main-navigation {
   position: relative;
-  outline: 1px dashed red;
   min-height: 15px;
   text-align:center;
   vertical-align: top;
@@ -76,11 +74,9 @@ h2 {
   margin-left: 17px;
 }
 .main {
-  outline: 1px dashed red;
   width:768px;
 }
 .basic background {
-  outline: 1px dashed red;
   font-size: 0px;
   width: 768px;
   min-height: 513px;
@@ -90,7 +86,6 @@ img {
   vertical-align: top;
 }
 .text {
-  outline: 1px dashed red;
   display: block;
   width: 494px;
   min-height: 212px;
@@ -119,41 +114,36 @@ img {
   text-align: center;
 }
 .info {
-  outline: 1px dashed red;
   color: #ffffff;
   width: 768px;
   min-height: 255px;
   text-align: center;
 }
 .info-left {
-  outline: 1px dashed red;
   background-color: #81b3d2;
   text-align: center;
   float: left;
   width: 256px;
-  min-height: 255px;
+  min-height: 256px;
 }
 .info-right {
-  outline: 1px dashed red;
   float: right;
   width: 512px;
   min-height: 255px;
 }
 .info-picture {
-  outline: 1px dashed red;
   float: left;
   width: 512px;
   min-height: 255px;
 }
 .info-data {
-  outline: 1px dashed red;
   background-color: #81b3d2;
   float: right;
-  width: 254px;
-  min-height: 255px;
+  width: 256px;
+  min-height: 256px;
 }
 .indent {
-  padding: 7px 37px 0 35px;
+  padding: 7px 40px 0 40px;
 }
 .info h2 {
   color: #ffffff;
@@ -165,13 +155,11 @@ img {
   padding: 7px 30px 0 27px;
 }
 .features {
-  outline: 1px dashed red;
   width: 768px;
   font-size: 0px;
   text-align: center;
 }
 .features-item {
-  outline: 1px dashed red;
   display: inline-block;
   width: 33.333%;
   min-height: 330px;
@@ -201,14 +189,12 @@ img {
   padding-right: 42px;
 }
 .vantage {
-  outline: 1px dashed red;
   width: 768px;
   font-size: 0px;
   text-align: center;
   background-color: #eeeeee;
 }
 .vantage-item {
-  outline: 1px dashed red;
   display: inline-block;
   width: 33.333%;
   min-height: 256px;
@@ -227,7 +213,6 @@ img {
   padding-right: 50px;
 }
 .content {
-  outline: 1px dashed red;
   display: block;
   min-height: 205px;
   width: 438px;
@@ -244,7 +229,6 @@ img {
   line-height: 24px;
 }
 .scan {
-  outline: 1px dashed red;
   display: block;
   background-color: #766357;
   margin: 0 auto;
@@ -262,12 +246,11 @@ img {
 }
 .search {
   background-color: #d4c2bb;
-  outline: 1px dashed red;
   width: 567px;
   min-height: 392px;
   position: absolute;
   margin-left: 100px;
-  top: 2173px;
+  top: 2171px;
   bottom: 197px;
   text-align: center;
   font-size: 14px;
@@ -285,13 +268,14 @@ img {
   margin-left: 20px;
   text-transform: uppercase;
   padding-left: 13px;
+  outline: none;
 }
 .occupation input:hover {
   background-color: #ebebeb;
 }
 .occupation input:active {
   background-color: #ffffff;
-  border: 2px solid #ebebeb;
+  border: 2px solid #e5e5e5;
 }
 .occupation {
   position: relative;
@@ -328,6 +312,8 @@ img {
   margin-left: 20px;
   text-transform: uppercase;
   padding-left: 13px;
+  outline: none;
+  
 }
 .departure input:hover {
   background-color: #ebebeb;
@@ -350,13 +336,13 @@ img {
   height: 23px;
   background-position: -10px -1194px;
 }
-.departure a:hover::before {
+.departure a::before:hover {
   background: url("../img/sprite.png") no-repeat;
   width: 22px;
   height: 23px;
   background-position: -10px -912px;
 }
-.departure a:active::before {
+.departure a::before:active {
   background: url("../img/sprite.png") no-repeat;
   width: 22px;
   height: 23px;
@@ -505,102 +491,87 @@ img {
   color: #94b9d2;
   width: 458px;
 }
-
 .map {
-  outline: 1px dashed red;
   display: block;
   background-image: url("../img/map.jpg");
+  background-position: 11px -10px;
   width: 768px;
   min-height: 472px;
 }
 .main-footer {
-  outline: 1px dashed red;
   font-size: 0px;
 }
 .container {
-  outline: 1px dashed red;
-  background-color: purple;
   padding-left: 46px;
   padding-right: 46px;
   margin: o auto;
 }
 .footer-contacts {
-  outline: 1px dashed red;
   display: inline-block;
-  width: 187px;
+  width: 33.333%;
   min-height: 71px;
   font-size: 14px;
   vertical-align: top;
-  padding-top: 50px;
+  padding-top: 47px;
   font-size: 21px;
   font-weight: bold;
   text-decoration: none;
-  padding-left: 60px;
+  text-align: center;
 }
 .footer-contacts a {
   text-decoration: none;
   color: #000000;
 }
 .footer-social {
-  outline: 1px dashed red;
   display: inline-block;
-  width: 237px;
+  width: 33.333%;
   min-height: 71px;
   font-size: 14px;
   vertical-align: top;
   text-align: center;
-  padding-top: 34px;
-  padding-left: 20px;
+  padding-top: 35px;
 }
 .social-btn {
   display: inline-block;
   width: 47px;
   height: 47px;
   margin: 0 1px;
-
   background: #81b3d2 url("../img/sprite.png") no-repeat center;
   font-size: 0;
   vertical-align: top;
   text-decoration: none;
-
 }
 .social-btn:hover {
   background-color: #669ec0;
 }
 .social-btn-t {
-  background-position: 5px -1313px;
+  background-position: 6px -1315px;
 }
-
 .social-btn-fb {
-  background-position: 8px -1278px;
+  background-position: 8px -1280px;
 }
-
 .social-btn-you {
-  background-position: -0px -431px;
+  background-position: 2px -432px;
 }
 .social-btn-t:active {
   background-color: #5496bd;
   background-position: 5px -934px;
 }
-
 .social-btn-fb:active {
   background-color: #5496bd;
   background-position: 8px -198px;
 }
-
 .social-btn-you:active {
   background-color: #5496bd;
   background-position: 3px -160px;
 }
 .footer-copyright {
-  outline: 1px dashed red;
   display: inline-block;
-  width: 244px;
+  width: 33.333%;
   font-size: 14px;
   vertical-align: top;
   text-align: center;
   padding-top: 38px;
-  padding-left: 19px;
 }
 .footer-copyright p {
   display: inline-block;
@@ -608,13 +579,13 @@ img {
   line-height: 26px;
   vertical-align: top;
   margin-top: 8px;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 .footer-copyright a {
   background: url("../img/sprite.png") no-repeat;
-  background-position: -10px -1233px;
+  background-position: -10px -1232px;
   display: inline-block;
-  width: 117px;
+  width: 112px;
   height: 40px;
 }
 .footer-copyright a:hover {
@@ -625,9 +596,7 @@ img {
   background: url("../img/sprite.png") no-repeat;
   background-position: -10px -672px;
 }
-
 .index-content {
-  outline: 1px dashed red;
   width: 674px;
   min-height: 219px;
   background: url("../img/filter.jpg") no-repeat;
@@ -636,11 +605,8 @@ img {
 }
 .index-content-left {
   float: left;
-  outline: 1px dashed red;
-
 }
 .column {
-  outline: 1px dashed red;
   float: left;
   min-height: 219px;
   color: #ffffff;
@@ -672,7 +638,6 @@ img {
   margin-right: 16px;
 }
 .index-content-right {
-  outline: 1px dashed red;
   float: right;
   width: 223px;
   min-height: 219px;
@@ -693,6 +658,7 @@ img {
   margin-right: 27px;
   padding: 13px;
   padding-left: 0;
+  padding-bottom: 15px;
 }
 .sorting span {
   padding-left: 4px;
@@ -760,18 +726,17 @@ img {
   background-position: -9px -413px;
 }
 .switch .down:hover {
-    background: url("../img/sprite.png") no-repeat center;
-    background-position: -6px -639px;
-  }
+  background: url("../img/sprite.png") no-repeat center;
+  background-position: -6px -639px;
+}
 .switch .down:active {
-    background: url("../img/sprite.png") no-repeat center;
-    background-position: -6px -1016px;
+  background: url("../img/sprite.png") no-repeat center;
+  background-position: -6px -1016px;
 }
 .filter-range {
   color: #ffffff;
   text-transform: uppercase;
   padding-top: 29px;
-
 }
 .filter-range-title {
   margin-bottom: 9px;
@@ -781,21 +746,21 @@ img {
 }
 .price-controls {
   position: relative;
-  height: 32px;
+  height: 31px;
   margin-bottom: 20px;
   font-size: 0;
   border: 2px solid #ffffff;
   border-radius: 2px;
+  top: -2px;
 }
 .price-controls::after {
   content: "";
   position: absolute;
-  top: 20%;
+  top: 16%;
   left: 50%;
   width: 2px;
-  height: 22px;
+  height: 23px;
   background: #ffffff;
-  background: translate(-50%, -50%);
 }
 .price-controls label {
   display: inline-block;
@@ -820,14 +785,15 @@ img {
 }
 .range-controls {
   position: relative;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
+  top: -2px;
 }
 .range-controls .scale {
   height: 2px;
   background: rgba(255, 255, 255, 0.3);
 }
 .range-controls .bar {
-  width: 60%;
+  width: 72%;
   height: 2px;
   background: #ffffff;
 }
@@ -849,12 +815,12 @@ img {
   left: 0;
 }
 .range-toggle-max {
-  left: 60%;
+  left: 72%;
 }
 .btn-transparent {
   display: block;
   margin: 0 auto;
-  padding: 6px 35px;
+  padding: 6px 33px;
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
@@ -877,9 +843,8 @@ img {
   display: inline-block;
   padding-left: 0;
   margin: 0;
-  padding-top: 35px;
+  padding-top: 30px;
 }
-
 .reservation {
   display: inline-block;
   width: 343px;
@@ -891,7 +856,7 @@ img {
 .reservation h2 {
   font-size: 21px;
   line-height: 26px;
-  margin-top: 29px;
+  margin-top: 25px;
   margin-bottom: 0;
 }
 .reservation h2:hover {
@@ -903,7 +868,7 @@ img {
 .reservation p {
   padding-top: 8px;
   margin: 0;
-  padding-bottom: 12px;
+  padding-bottom: 13px;
   padding-right: 35px;
   display: inline-block;
 }
@@ -914,12 +879,10 @@ img {
   padding-left: 25px;
 }
 .reservation .number-apartments {
-
 }
 .rating {
   position: relative;
   display: inline-block;
-  min-height: 150px;
   font-size: 14px;
   vertical-align: top;
   padding-top: 2px;
@@ -932,7 +895,7 @@ img {
   background-position: -10px -107px;
   width: 90px;
   height: 23px;
-  margin-top: 31px;
+  margin-top: 27px;
   margin-left: 72px;
 }
 .rating-motel::before {
@@ -942,7 +905,7 @@ img {
   background-position: -10px -33px;
   width: 90px;
   height: 23px;
-  margin-top: 30px;
+  margin-top: 27px;
   margin-left: 119px;
 }
 .rating-apartments::before {
@@ -952,7 +915,7 @@ img {
   background-position: -10px -70px;
   width: 90px;
   height: 23px;
-  margin-top: 29px;
+  margin-top: 27px;
   margin-left: 96px;
 }
 .rating p {
@@ -963,7 +926,7 @@ img {
   padding-top: 4px;
   color: #666666;
   margin-left: 50px;
-  margin-top: 94px;
+  margin-top: 90px;
   font-size: 14px;
   line-height: 21px;
 }
@@ -979,7 +942,7 @@ img {
   text-decoration: none;
   color: #ffffff;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 3px;
   font-size: 14px;
   line-height: 21px;
   font-weight: bold;
@@ -1000,7 +963,7 @@ img {
   text-decoration: none;
   color: #ffffff;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 3px;
   font-size: 14px;
   line-height: 21px;
   font-weight: bold;
