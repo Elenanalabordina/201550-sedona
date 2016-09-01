@@ -13,7 +13,7 @@
         <nav class="main-navigation clearfix">
           <ul class="left">
             <li>
-              <a href="#">Информация</a>
+              <a class="active" href="#">Информация</a>
             </li>
             <li>
               <a href="#">Фото и видео</a>
@@ -24,17 +24,15 @@
               <a href="#">Карта штата</a>
             </li>
             <li>
-              <a href="//C:/Users/Лена/Documents/GitHub/201550-sedona/catalog.html">Гостиницы</a>
+              <a href="catalog.html">Гостиницы</a>
             </li>
           </ul>
-          <img src="img/logotip.png" alt="Логотип">
+          <img src="img/logotip.png" width="140" height="70" alt="Логотип">
         </nav>
       </div>
     </header>
     <main>
-      <div class="basic background">
-          <img src="img/sedona.jpg" alt="Фоновый рисунок">
-      </div>
+      <div class="basic"></div>
       <div class="text">
         <p class="slogan">Седона &mdash; небольшой городок в Аризоне, заслуживающий большего!</p>
         <p class="reason">Рассмотрим 5 причин, по которым Cедона круче, чем Гранд Каньон!</p>
@@ -46,35 +44,35 @@
           <p class="rubric">Седона &mdash; не аттракцион для туристов, там течет своя жизнь</p>
         </div>
         <div class="info-right">
-          <img src="img/realctiy.jpg" alt="Рисунок">
+          <img src="img/realctiy.jpg" width="512" height="256" alt="Рисунок">
         </div>
       </div>
       <div class="features">
         <div class="features-item">
-          <img src="img/house.png" alt="Дом">
+          <div class="housing"></div>
           <h2>Жилье</h2>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </div>
         <div class="features-item">
-          <img src="img/food.png" alt="Еда">
+          <div class="nutrition"></div>
           <h2>Еда</h2>
           <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
         </div>
         <div class="features-item souvenir">
-          <img src="img/souvenir.png" alt="Сувениры">
+          <div class="memento"></div>
           <h2>Сувениры</h2>
           <p>Не только китайского, но и местного производства!</p>
         </div>
       </div>
       <div class="info clearfix">
         <div class="info-picture">
-          <img src="img/bridge.jpg" alt="Рисунок">
+          <img src="img/bridge.jpg" width="512" height="256" alt="Рисунок">
         </div>
         <div class="info-data">
           <h2>Там есть мост&nbsp;дьявола</h2>
           <p>&mdash; №2 &mdash;</p>
           <p class="indent">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-      </div>
+        </div>
       </div>
       <div class="vantage">
         <div class="vantage-item">
@@ -99,29 +97,32 @@
       </div>
       <div class="scan">
         <h2>Поиск гостиницы в седоне</h2>
-      </div>
-      <div class="search">
-        <form action="https://echo.htmlacademy.ru" method="post">
-          <div class="occupation">
-            Дата заезда:<input type="text" name="total" id="occupation-field" value="24 апреля 2016">
-            <a href=""></a>
-          </div>
-          <div class="departure">
-            Дата выезда:<input type="text" name="total" id="departure-field" value="4 июля 2016">
-            <a href=""></a>
-          </div>
-          <div class="abulf">
-            Взрослые:<input type="text" name="total" id="abulf-field" value="2">
-          </div>
-          <div class="children">
-            Дети:<input type="text" name="total" id="children-field" value="0">
-          </div>
-        </form>
-        <div class="btn"><input type="submit" value="Найти"></div>
+        <div class="search">
+          <form action="https://echo.htmlacademy.ru" method="post">
+            <div class="occupation">
+              <label>Дата заезда:<input type="text" name="total" id="occupation-field" value="24 апреля 2016">
+              <a class="calendar" href=""></a></label>
+            </div>
+            <div class="departure">
+              <label>Дата выезда:<input type="text" name="total" id="departure-field" value="4 июля 2016">
+              <a class="calendar" href=""></a></label>
+            </div>
+            <div class="abulf">
+              <label>Взрослые:<input type="text" name="total" id="abulf-field" value="2">
+              <a class="minus"></a><a class="plus"></a></label>
+            </div>
+            <div class="children">
+              <label>Дети:<input type="text" name="total" id="children-field" value="0">
+              <a class="minus"></a><a class="plus"></a></label>
+            </div>
+          </form>
+          <div class="btn"><input type="submit" value="Найти"></div>
+        </div>
       </div>
       <div class="map"></div>
     </main>
-    <footer class="main-footer">
+    <footer class="fond">
+        <div class="main-footer">
         <div class="footer-contacts">
           <a href="#">#VISITSEDONA</a>
         </div>
@@ -134,6 +135,7 @@
           <p>Website by</p>
           <a href="https://htmlacademy.ru"></a>
         </div>
+      </div>
     </footer>
   </body>
 </html>
