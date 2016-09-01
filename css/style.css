@@ -171,6 +171,7 @@ h2 {
   text-align: center;
   padding-top: 160px;
   padding-bottom: 60px;
+
 }
 .features-item {
   display: inline-block;
@@ -181,32 +182,41 @@ h2 {
   color: #333333;
   position: relative;
 }
-.features-item .housing {
+.house::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/spritenow.png");
+  background-repeat: no-repeat;
   display: block;
-  background-image: url("../img/house.png");
   width: 75px;
-  min-height: 72px;
-  position: absolute;
+  height: 72px;
+  background-position: -10px -100px;
   top: -100px;
   left: 90px;
 }
-.features-item .nutrition {
+.food::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/spritenow.png");
+  background-repeat: no-repeat;
   display: block;
-  background-image: url("../img/food.png");
   width: 74px;
-  min-height: 70px;
-  position: absolute;
+  height: 70px;
+  background-position: -10px -10px;
   top: -100px;
   left: 90px;
 }
-.features-item .memento {
-  display: block;
-  background-image: url("../img/souvenir.png");
-  width: 64px;
-  min-height: 76px;
+.souvenir::before {
+  content: "";
   position: absolute;
+  background-image: url("../img/spritenow.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 64px;
+  height: 76px;
+  background-position: -10px -192px;
   top: -105px;
-  left: 95px;
+  left: 97px;
 }
 .features-item h2 {
   margin: 0;
@@ -297,7 +307,7 @@ h2 {
   padding-bottom: 27px;
 }
 .occupation input {
-  width: 327px;
+  width: 326px;
   min-height: 34px;
   background-color: #f2f2f2;
   border: 2px solid #f2f2f2;
@@ -340,7 +350,7 @@ h2 {
   padding-bottom: 27px;
 }
 .departure input {
-  width: 329px;
+  width: 326px;
   min-height: 33px;
   background-color: #f2f2f2;
   border: 2px solid #f2f2f2;
@@ -775,25 +785,27 @@ h2 {
 .switch .upwards:hover {
   background: url("../img/sprite.png") no-repeat center;
   background-position: -10px -785px;
-  text-decoration: none;
+  border-bottom: none;
 }
 .switch .upwards:active {
   background: url("../img/sprite.png") no-repeat center;
   background-position: -10px -418px;
-  text-decoration: none;
+  border-bottom: none;
 }
 .switch .down:hover {
   background: url("../img/sprite.png") no-repeat center;
   background-position: -10px -642px;
+  border-bottom: none;
 }
 .switch .down:active {
   background: url("../img/sprite.png") no-repeat center;
   background-position: -10px -1019px;
+  border-bottom: none;
 }
-.switch .active:active,
-.switch .active:focus {
+.switch .active {
   background: url("../img/sprite.png") no-repeat center;
   background-position: -10px -1019px;
+  border-bottom: none;
 }
 .filter-range {
   color: #ffffff;
@@ -1046,9 +1058,4 @@ h2 {
 .btn-reservation:active {
   background: #503e33;
   color: #928a85;
-}
-.sprite {
-  background-image: url(../img/sprite.png);
-  background-repeat: no-repeat;
-  display: block;
 }
