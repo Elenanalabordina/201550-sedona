@@ -312,15 +312,35 @@ main {
   position: relative;
   padding-bottom: 27px;
 }
+.occupation label,
+.departure label,
+.abulf label,
+.children label {
+  display: inline-block;
+  /*vertical-align: middle;
+  text-align: center;
+  min-width: 36px;*/
+  font-size: 0;
+}
+.occupation p {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
+  margin: 0;
+  width: 113px;
+  /*text-align: left;*/
+}
 .occupation input {
-  width: 326px;
+  width: 330px;
   min-height: 34px;
   background-color: #f2f2f2;
   border: 2px solid #f2f2f2;
-  margin-left: 25px;
-  padding-left: 13px;
+  padding-left: 11px;
   text-transform: uppercase;
   outline: none;
+  display: inline-block;
+  line-height: 26px;
+  font-size: 14px;
 }
 .occupation input:hover {
   background-color: #ebebeb;
@@ -355,15 +375,25 @@ main {
   position: relative;
   padding-bottom: 27px;
 }
+.departure p {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
+  margin: 0;
+  width: 113px;
+  /*text-align: left;*/
+}
 .departure input {
-  width: 326px;
-  min-height: 33px;
+  width: 330px;
+  min-height: 34px;
   background-color: #f2f2f2;
   border: 2px solid #f2f2f2;
-  margin-left: 20px;
+  padding-left: 10px;
   text-transform: uppercase;
-  padding-left: 13px;
   outline: none;
+  display: inline-block;
+  line-height: 26px;
+  font-size: 14px;
 }
 .departure input:hover {
   background-color: #ebebeb;
@@ -396,8 +426,28 @@ main {
 }
 .abulf {
   display: inline-block;
-  margin-right: 20px;
   position: relative;
+  margin-right: 49px
+}
+.abulf p {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
+  margin: 0;
+  width: 113px;
+  text-align: left;
+}
+.abulf input {
+  width: 110px;
+  min-height: 34px;
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
 }
 .abulf input:hover {
   background-color: #ebebeb;
@@ -436,7 +486,7 @@ main {
   width: 22px;
   height: 23px;
   top: 15px;
-  right: 0px;
+  right: 3px;
 }
 .plus:hover {
   background: url("../img/sprite.png") no-repeat;
@@ -452,8 +502,27 @@ main {
 }
 .children {
   display: inline-block;
-  margin-left: 20px;
   position: relative;
+}
+.children p {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
+  margin: 0;
+  width: 65px;
+  text-align: left;
+}
+.children input {
+  width: 109px;
+  min-height: 34px;
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
 }
 .children input:hover {
   background-color: #ebebeb;
@@ -471,7 +540,7 @@ main {
   width: 22px;
   height: 23px;
   top: 20px;
-  left: 90px;
+  left: 79px;
 }
 .minus:hover {
   background: url("../img/sprite.png") no-repeat;
@@ -505,26 +574,6 @@ main {
   width: 22px;
   height: 23px;
   background-position: -10px -527px;
-}
-.abulf input {
-  width: 108px;
-  min-height: 34px;
-  background-color: #f2f2f2;
-  border: 2px solid #f2f2f2;
-  margin-left: 38px;
-  text-align: center;
-  text-transform: uppercase;
-  outline: none;
-}
-.children input {
-  width: 108px;
-  min-height: 34px;
-  background-color: #f2f2f2;
-  border: 2px solid #f2f2f2;
-  margin-left: 40px;
-  text-align: center;
-  text-transform: uppercase;
-  outline: none;
 }
 .btn input {
   display: inline-block;
@@ -761,6 +810,7 @@ main {
   font-size: 12px;
   line-height: 18px;
   text-decoration: none;
+  border-bottom: 1px dotted #81b3d2;
 }
 .sorting a:hover {
   color: #81b3d2;
@@ -768,7 +818,7 @@ main {
 }
 .sorting a:active {
   color: #000000;
-  border-bottom: 1px dotted #81b3d2;
+  border-bottom: none;
 }
 .switch {
   position: relative;
@@ -781,6 +831,7 @@ main {
   position: absolute;
   top: 40px;
   right: 23px;
+  border-bottom: none;
 }
 .switch .down {
   display: block;
