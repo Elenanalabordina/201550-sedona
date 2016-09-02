@@ -27,12 +27,11 @@ h2 {
 }
 .clearfix::after {
   content: "";
-
   display: table;
   clear: both;
 }
 .main-haeder {
-  width: 768px;
+  width: 100%;
   background-color: #ffffff;
 }
 .main-navigation {
@@ -89,11 +88,10 @@ h2 {
   margin-left: -69px;
 }
 main {
-  width:768px;
+  width: 100%;
   background-color: #ffffff;
 }
 .basic {
-  display: block;
   background-image: url("../img/sedona.jpg");
   width: 768px;
   min-height: 513px;
@@ -278,17 +276,16 @@ main {
   line-height: 24px;
 }
 .scan {
-  display: block;
   background-color: #766357;
   margin: 0 auto;
   min-height: 86px;
-  width: 567px;
+  width: 568px;
   position: relative;
 }
 .scan h2 {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 29px;
+  padding-top: 31px;
   text-align: center;
   color: #ffffff;
   font-size: 21px;
@@ -439,7 +436,6 @@ main {
   border: 2px solid #ebebeb;
 }
 .abulf .minus {
-  display: block;
   position: absolute;
   background: url("../img/minus.png") no-repeat;
   width: 22px;
@@ -460,7 +456,6 @@ main {
   background-position: -10px -250px;
 }
 .abulf .plus {
-  display: block;
   position: absolute;
   background: url("../img/plus.png") no-repeat;
   width: 22px;
@@ -512,7 +507,6 @@ main {
   border: 2px solid #ebebeb;
 }
 .children .minus {
-  display: block;
   position: absolute;
   background: url("../img/minus.png") no-repeat;
   width: 22px;
@@ -533,7 +527,6 @@ main {
   background-position: -10px -250px;
 }
 .children .plus {
-  display: block;
   position: absolute;
   background: url("../img/plus.png") no-repeat;
   width: 22px;
@@ -553,8 +546,10 @@ main {
   height: 23px;
   background-position: -10px -527px;
 }
+.btn {
+  float: left
+}
 .btn input {
-  display: inline-block;
   margin-top: 54px;
   width: 458px;
   border: none;
@@ -578,16 +573,16 @@ main {
   width: 458px;
 }
 .map {
-  display: block;
   background-image: url("../img/map.jpg");
   background-position: 11px -10px;
+  background-color: #cbdda9;
   width: 768px;
   min-height: 593px;
 }
 .main-footer {
   font-size: 0px;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 33px;
+  padding-bottom: 33px;
   background-color: #ffffff;
 }
 .container {
@@ -689,19 +684,20 @@ main {
   top: 2641px;
 }
 .index-content {
-  display: block;
   width: 674px;
   min-height: 219px;
   background: url("../img/filter.jpg") no-repeat;
+  background-color: #82a5c5;
   padding-left: 47px;
   padding-right: 47px;
 }
 .index-content-left {
   float: left;
+  padding-top: 28px;
+  padding-bottom: 28px;
 }
 .column {
   float: left;
-  min-height: 219px;
   color: #ffffff;
 }
 .column-left {
@@ -716,26 +712,28 @@ main {
   list-style: none;
 }
 .column li {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+}
+.column li:last-child {
+  margin-bottom: 0;
 }
 .column h3 {
-  padding-top: 12px;
   font-size: 16px;
   line-height: 21px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin: 0;
+  padding-bottom: 25px;
 }
 .column input {
   width: 19px;
   height: 20px;
   margin-right: 16px;
+  vertical-align: bottom;
 }
 .border {
   border-bottom: 1px solid #e5e5e5;
 }
 .sorting {
-  min-height: 86px
-  vertical-align: top;
   margin: 0 auto;
   font-size: 12px;
   line-height: 18px;
@@ -798,7 +796,6 @@ main {
   position: relative;
 }
 .switch .upwards {
-  display: block;
   background-image: url("../img/upwards.png");
   width: 9px;
   min-height: 11px;
@@ -808,7 +805,6 @@ main {
   border-bottom: none;
 }
 .switch .down {
-  display: block;
   background-image: url("../img/down.png");
   width: 10px;
   min-height: 10px;
@@ -840,7 +836,6 @@ main {
   background: url("../img/sprite.png") no-repeat center;
   background-position: -10px -1019px;
   border-bottom: none;
-
 }
 .switch .active:hover {
   background: url("../img/sprite.png") no-repeat center;
