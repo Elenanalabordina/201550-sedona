@@ -31,7 +31,7 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main class="clearfix">
       <div class="basic"></div>
       <div class="text">
         <p class="slogan">Седона &mdash; небольшой городок в Аризоне, заслуживающий большего!</p>
@@ -95,22 +95,28 @@
       <div class="scan">
         <h2>Поиск гостиницы в седоне</h2>
         <div class="search">
-          <form action="https://echo.htmlacademy.ru" method="post">
-            <div class="occupation">
-              <label><p>Дата заезда:</p><input type="text" name="total" id="occupation-field" value="24 апреля 2016">
-              <a class="calendar" href=""></a></label>
+          <form action="https://echo.htmlacademy.ru" method="post" class="clearfix">
+            <div class="occupation clearfix">
+              <label for="occupation-field">Дата заезда:</label>
+              <input type="text" name="total" id="occupation-field" value="24 апреля 2016">
+              <a class="calendar" href=""></a>
             </div>
-            <div class="departure">
-              <label><p>Дата выезда:</p><input type="text" name="total" id="departure-field" value="4 июля 2016">
-              <a class="calendar" href=""></a></label>
+            <div class="departure clearfix">
+              <label for="departure-field">Дата выезда:</label>
+              <input type="text" name="total" id="departure-field" value="4 июля 2016">
+              <a class="calendar" href=""></a>
             </div>
-            <div class="abulf">
-              <label><p>Взрослые:</p><input type="text" name="total" id="abulf-field" value="2">
-              <a class="minus"></a><a class="plus"></a></label>
+            <div class="abulf clearfix">
+              <label for="abulf-field">Взрослые:</label>
+              <input type="text" name="total" id="abulf-field" value="2">
+              <a class="minus"></a>
+              <a class="plus"></a>
             </div>
-            <div class="children">
-              <label><p>Дети:</p><input type="text" name="total" id="children-field" value="0">
-              <a class="minus"></a><a class="plus"></a></label>
+            <div class="children clearfix">
+              <label for="children-field">Дети:</label>
+              <input type="text" name="total" id="children-field" value="0">
+              <a class="minus"></a>
+              <a class="plus"></a>
             </div>
           </form>
           <div class="btn"><input type="submit" value="Найти"></div>
