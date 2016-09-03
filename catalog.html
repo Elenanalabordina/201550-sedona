@@ -13,7 +13,7 @@
         <nav class="main-navigation clearfix">
           <ul class="left">
             <li>
-              <a href="#">Информация</a>
+              <a href="index.html">Информация</a>
             </li>
             <li>
               <a href="#">Фото и видео</a>
@@ -33,59 +33,61 @@
     </header>
     <main class="clearfix">
       <div class="index-content clearfix">
-        <div class="index-content-left">
-          <div class="column column-left">
-            <h3>Инфраструктура:</h3>
-            <ul>
-              <li>
-                <input type="checkbox" name="pool" id="pool-field" checked>
-                <label for="pool-field">Бассейн</label>
-              </li>
-              <li>
-                <input type="checkbox" name="parking" id="parking-field">
-                <label for="parking-field">Парковка</label>
-              </li>
-              <li>
-                <input type="checkbox" name="wireless" id="wireless-field">
-                <label for="wireless-field">Wi-Fi</label>
-              </li>
-            </ul>
-          </div>
-          <div class="column column-right">
-            <h3>Тип жилья:</h3>
-            <ul>
-              <li>
-                <input type="checkbox" name="hotel" id="hotel-field" checked>
-                <label for="hotel-field">Гостиница</label>
-              </li>
-              <li>
-                <input type="checkbox" name="motel" id="motel-field" checked>
-                <label for="motel-field">Мотель</label>
-              </li>
-              <li>
-                <input type="checkbox" name="apartments" id="apartments-field" checked>
-                <label for="apartments-field">Апартаменты</label>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="index-content-right">
-          <div class="filter-range">
-            <div class="filter-range-title">Стоимость в сутки (p):</div>
-            <div class="price-controls">
-              <label class="min-price">от <input type="text" name="min-price" value="0"></label>
-              <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+        <form action="https://echo.htmlacademy.ru" method="action" class="clearfix">
+          <div class="index-content-left">
+            <div class="column column-left">
+              <h3>Инфраструктура:</h3>
+              <ul>
+                <li>
+                  <input type="checkbox" name="pool" id="pool-field" checked>
+                  <label for="pool-field">Бассейн</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="parking" id="parking-field">
+                  <label for="parking-field">Парковка</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="wireless" id="wireless-field">
+                  <label for="wireless-field">Wi-Fi</label>
+                </li>
+              </ul>
             </div>
-            <div class="range-controls">
-              <div class="scale">
-                <div class="bar"></div>
+            <div class="column column-right">
+              <h3>Тип жилья:</h3>
+              <ul>
+                <li>
+                  <input type="checkbox" name="hotel" id="hotel-field" checked>
+                  <label for="hotel-field">Гостиница</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="motel" id="motel-field" checked>
+                  <label for="motel-field">Мотель</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="apartments" id="apartments-field" checked>
+                  <label for="apartments-field">Апартаменты</label>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="index-content-right">
+            <div class="filter-range">
+              <div class="filter-range-title">Стоимость в сутки (p):</div>
+              <div class="price-controls">
+                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
               </div>
-              <div class="range-toggle range-toggle-min"></div>
-              <div class="range-toggle range-toggle-max"></div>
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="range-toggle range-toggle-min"></div>
+                <div class="range-toggle range-toggle-max"></div>
+              </div>
+              <input class="show" type="submit" value="Показать">
             </div>
-            <button class="btn-transparent" type="submit">Показать</button>
           </div>
-        </div>
+        </form>
       </div>
       <div class="sorting clearfix">
         <div class="container clearfix">
