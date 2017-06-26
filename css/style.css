@@ -624,8 +624,6 @@ main {
   background-color: #ffffff;
 }
 .container {
-  display: flex;
-  justify-content: space-between;
   padding-left: 46px;
   padding-right: 46px;
   margin: o auto;
@@ -830,6 +828,10 @@ main {
 .sorting a:active {
   color: #000000;
   border-bottom: none;
+}
+.sorting__list {
+  display: flex;
+  justify-content: space-between;
 }
 .switch {
   position: relative;
