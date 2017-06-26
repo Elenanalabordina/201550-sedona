@@ -624,6 +624,8 @@ main {
   background-color: #ffffff;
 }
 .container {
+  display: flex;
+  justify-content: space-between;
   padding-left: 46px;
   padding-right: 46px;
   margin: o auto;
